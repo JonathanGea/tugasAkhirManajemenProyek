@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: csvservice-app
+server:
+  port: 1003

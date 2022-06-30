@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: csvservice-app
+        uri: http://localhost:1003/
+        predicates:
+        - Path=/csvdataentry/**
+      - id: logserviceapp
+        uri: http://localhost:1010/
+        predicates:
+        - Path=/xmldataentry/**
+      - id: xmlserviceapp-b
+        uri: http://localhost:1004/
+        predicates:
+        - Path=/xmldataentry/**
+        
+        
+        
+        
+       

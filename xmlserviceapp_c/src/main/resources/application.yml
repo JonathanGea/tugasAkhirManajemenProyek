@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: xmlserviceapp-b
+server:
+  port: 1004

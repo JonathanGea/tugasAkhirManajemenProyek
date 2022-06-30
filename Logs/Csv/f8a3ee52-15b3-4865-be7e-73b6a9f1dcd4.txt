@@ -1,0 +1,2 @@
+2022-06-09 17:51:10;Initialize data csv
+2022-06-09 17:51:10;parsing csv
